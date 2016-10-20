@@ -13,6 +13,9 @@
 	<!-- Template Basic Images Start -->
 	<meta property="og:image" content="path/to/image.jpg">
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 	<!-- Template Basic Images End -->
 
 	<!-- Bootstrap (latest) Grid Styles Only -->
@@ -115,25 +118,51 @@
 			<div class="row">
 				<div class="col-md-21">
 					<div class="content">
-						<div class="owl-carousel owl-carousel1">
-							<img src="img/home_content.jpg" title="Tandem Building Corporation" alt="Tandem Building Corporation">
-							<img src="img/home_content.jpg" title="Tandem Building Corporation" alt="Tandem Building Corporation">
-							<img src="img/home_content.jpg" title="Tandem Building Corporation" alt="Tandem Building Corporation">
-							<img src="img/home_content.jpg" title="Tandem Building Corporation" alt="Tandem Building Corporation">
-						</div>						
-						<div class="h_cont_text">
-							….a higher degree of excellence.
+						<div class="portfolio clearfix">
+							<div class="col-md-21 cur_proj"><h2>Current Projects</h2></div>
+
+								<div class="col-md-7 col-sm-10 col-xs-21">
+								<a class="portfolio_item" href="#">
+									<img class="responsive_img poprtfolio_img" src="img/works/1.jpg" alt="Alt">
+									<h3>Project name</h3>
+									<div class="portfolio_item_cont">
+										<i class="fa fa-search-plus" aria-hidden="true"></i><br>
+									</div>
+
+									<span class="hidden">
+										<span class="portfolio-popup">
+											<span class="container-fluide">
+
+												<span class="row">
+													<span class="col-md-21">
+														<div class="porf_pop_item">
+															<img class="responsive_img" src="img/works/1.jpg" title="project name" alt="Alt">
+															<span class="portfolio_popup_text">
+																<span class="row">
+																	<span class="col-sm-21">
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis eum iste deleniti, aliquam veritatis dicta minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis eum iste deleniti, aliquam veritatis dicta minusLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+																	</span>
+																</span>
+															</div>
+														</span>
+													</span>
+
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>	
+
+							</div>
 						</div>
+						<a href="coming.html" class="h_cont_logo">
+							<img src="img/home_cont_logo.png" alt="logo Plan Room" title="Plan Room">
+							<p>Plan Room</p>
+						</a>
 					</div>
-					<a href="coming.html" class="h_cont_logo">
-						<img src="img/home_cont_logo.png" alt="logo Plan Room" title="Plan Room">
-						<p>Plan Room</p>
-					</a>
 				</div>
-			</div>
-		</div>
-	</section>
-	<footer>
+			</section>
+				<footer>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-10 col-sm-21 col-md-push-7 col-xs-21">
@@ -168,13 +197,13 @@
 		</div>
 	</footer>
 
-	<!-- Optimized loading JS Start -->
-	<script>var scr = {"scripts":[
-		{"src" : "js/libs.min.js", "async" : false},
-		{"src" : "js/common.js", "async" : false}
-		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
-	</script>
-	<!-- Optimized loading JS End -->
+			<!-- Optimized loading JS Start -->
+			<script>var scr = {"scripts":[
+				{"src" : "js/libs.min.js", "async" : false},
+				{"src" : "js/common.js", "async" : false}
+				]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+			</script>
+			<!-- Optimized loading JS End -->
 
-</body>
-</html>
+		</body>
+		</html>
